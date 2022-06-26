@@ -1,0 +1,723 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.hero-area,
+.circle,
+.big-circle,
+.btn3,
+.btn4,
+.border-box,
+.review,
+.wave,
+.colorcode,
+.btn5,
+.small-circle,
+.animationbtn {
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a02b4;
+}
+
+.navbar {
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar .nav-item {
+    border-bottom: 2px solid transparent;
+}
+
+.navbar .nav-item:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.first-page {
+    padding: 50px 0px 0px 0px;
+}
+
+.hero-area {
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+
+.app-ss {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.hero-area h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.hero-area p {
+    font-size: 20px;
+}
+
+.x1 {
+    animation: movecircles 15s linear infinite;
+    top: 150px;
+}
+
+.x2 {
+    left: 200px;
+    top: 200px;
+    transform: scale(0.6);
+    animation: movecircles 25s linear infinite;
+}
+
+.x3 {
+    left: -250px;
+    top: 250px;
+    transform: scale(0.8);
+    animation: movecircles 20s linear infinite;
+}
+
+.x4 {
+    left: 470px;
+    top: 300px;
+    transform: scale(0.75);
+    animation: movecircles 18s linear infinite;
+}
+
+.x5 {
+    left: -150px;
+    top: 100px;
+    transform: scale(0.8);
+    animation: movecircles 15s linear infinite;
+}
+
+.x6 {
+    animation: movecircles 15s linear infinite;
+    bottom: 150px;
+}
+
+.x7 {
+    left: 200px;
+    bottom: 200px;
+    transform: scale(0.6);
+    animation: movecircles 25s linear infinite;
+}
+
+.x8 {
+    left: -250px;
+    bottom: 250px;
+    transform: scale(0.8);
+    animation: movecircles 15s linear infinite;
+}
+
+.x9 {
+    left: 470px;
+    bottom: 300px;
+    transform: scale(0.75);
+    animation: movecircles 18s linear infinite;
+}
+
+.x10 {
+    left: -150px;
+    bottom: 100px;
+    transform: scale(0.8);
+    animation: movecircles 20s linear infinite;
+}
+
+@keyframes movecircles {
+    0% {
+        margin-left: 400px;
+    }
+
+    100% {
+        margin-left: -400px;
+    }
+}
+
+.btn {
+    border: 1px solid #fff;
+    border-radius: 0%;
+    transition: all 0.3s linear;
+}
+
+.btn3 a:hover,
+.btn4 a:hover {
+    color: #fff;
+}
+
+.btn1 {
+    background: #fff;
+    color: #000;
+}
+
+.btn2 {
+    background: transparent;
+}
+
+.btn1:hover {
+    transform: translateY(-6px);
+    background: linear-gradient(to bottom right, #6509e2 40%, #5a02b4 70%);
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn2:hover {
+    transform: translateY(-6px);
+    background: linear-gradient(to bottom right, #6509e2 40%, #5a02b4 70%);
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hero-area img,
+.preface img,
+.features img {
+    animation: Moveupdoen 2s infinite alternate;
+}
+
+@keyframes Moveupdoen {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(30px);
+    }
+}
+
+.services i {
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.services h4 {
+    margin-bottom: 15px;
+}
+
+.big-circle {
+    top: -30px;
+    left: -200px;
+    right: inherit;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.services .card,
+.work .card,
+.features .card {
+    top: 0;
+    border: 1px solid #dfdfdf;
+    padding: 10px;
+    margin: 13px;
+    border-radius: 0%;
+    box-shadow: 0;
+    transition: all 0.3s linear;
+    background: transparent;
+}
+
+.work .card {
+    background: #fff;
+}
+
+.services .card:hover,
+.work .card:hover {
+    top: -15px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.features .card {
+    border: none;
+}
+
+.features {
+    overflow: hidden;
+}
+
+.features .card:hover {
+    top: -15px;
+}
+
+.features .card i {
+    color: #858585;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.services .card:hover i,
+.features .card:hover i,
+.features .card:hover h4 {
+    color: #5a02b4;
+}
+
+.work i {
+    color: #5a02b4;
+    font-size: 25px;
+}
+
+.work .card i {
+    color: #5a02b4;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.apps-btn i {
+    font-size: 38px;
+    position: absolute;
+    left: 8px;
+    color: white;
+}
+
+.apps-btn .btn a {
+    left: 20px;
+    color: #fff;
+}
+
+.btn3,
+.btn4 {
+    text-align: center;
+    padding: 11px 0;
+    padding-left: 55px;
+    padding-right: 20px;
+    margin-right: 40px;
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    position: relative;
+}
+
+.apps-btn .btn:hover {
+    transform: translateY(-6px);
+    background: linear-gradient(to bottom right, #6509e2 40%, #5a02b4 70%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.work,
+.form .backg {
+    background: #f1f1f1;
+}
+
+.iphone-1,
+.iphone-2 {
+    width: 80%;
+    position: absolute;
+    left: 0%;
+    z-index: 2;
+}
+
+.iphone-2 {
+    left: 180px;
+    z-index: 1;
+}
+
+.border-box {
+    left: 50px;
+    width: 65%;
+    height: 80%;
+    top: 70px;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    animation: rotetion 10s linear infinite;
+}
+
+@keyframes rotetion {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.phone-animation {
+    min-height: 450px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.review {
+    padding: 100px 0;
+}
+
+.review img {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 95px;
+    float: right;
+}
+
+.review i {
+    color: #ffa500;
+}
+
+.plans {
+    background:  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url('images/pricing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.price-head {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.price-head-text {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 50px 50px 0 50px;
+    color: #ffffff;
+}
+
+.price-head .price-head-text .wave {
+    border-radius: 43%;
+    filter: opacity(0.8);
+    animation: drift linear infinite;
+    transform-origin: 50% 48%;
+    position: absolute;
+    z-index: -1;
+    top: -250px;
+    left: -50px;
+    width: 475px;
+    height: 475px;
+}
+
+.plans .border:hover {
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a02b4;
+    color: #fff;
+}
+
+.price-head .wave:nth-of-type(1) {
+    animation-duration: 5s;
+}
+
+.price-head .wave:nth-of-type(2) {
+    animation-duration: 7s;
+}
+
+.price-head .wave:nth-of-type(3) {
+    animation-duration: 9s;
+}
+
+@keyframes drift {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.plans h1 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 48px;
+    /* color: #fff; */
+}
+
+.plans h1 span {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.plans .card {
+    border-radius: 0%;
+}
+
+.plans .p {
+    color: #9a9999;
+}
+
+.btn5 {
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+
+.btn5:hover {
+    color: #fff;
+    transform: translateY(-6px);
+    background: linear-gradient(to bottom right, #6509e2 40%, #5a02b4 70%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.small-circle {
+    top: -50px;
+    right: -70px;
+    z-index: -1;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.iphone-3,
+.iphone-4 {
+    width: 80%;
+    position: absolute;
+    left: 0%;
+    z-index: 2;
+}
+
+.iphone-4 {
+    left: 100px;
+    z-index: 1;
+}
+
+.blog {
+    background: #f1f1f1;
+    transition: all 0.4s;
+}
+
+.blog .page-content {
+    background: #fff;
+}
+
+.blog img {
+    position: relative;
+}
+
+.blog i {
+    font-size: 16px;
+    margin-bottom: 11px;
+    color: #858585;
+    padding-inline-end: 5px;
+    font-weight: 600;
+}
+
+.animationbtn {
+    display: inline-block;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    margin: 15px;
+    color: #fff;
+    padding: 10px 15px;
+    opacity: 0;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.page-content:hover .animationbtn {
+    opacity: 1;
+}
+
+.page-content i:hover,
+.page-content h4:hover {
+    color: #6509e2;
+    cursor: pointer;
+}
+
+.backg .card {
+    border-radius: 0%;
+}
+.backg i {
+    font-size: 50px;
+    color: #5a02b4;
+    padding-bottom: 10px;
+}
+
+.backg h4 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+@media (max-width: 1200.98px) {
+
+    .iphone-1,
+    .iphone-2 {
+        width: 75%;
+    }
+
+    .border-box {
+        top: 100px;
+    }
+
+    .phone-animation {
+        padding-top: 100px;
+    }
+
+    .iphone-2 {
+        left: 150px;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .first-page {
+        padding: 57px 0px 0px 0px;
+    }
+
+    .phone-animation {
+        padding-top: 10px;
+    }
+
+    .border-box {
+        width: 55%;
+    }
+
+    .iphone-1,
+    .iphone-2 {
+        width: 64%;
+    }
+
+    .iphone-2 {
+        left: 165px;
+        z-index: 1;
+    }
+
+    @keyframes movecircles {
+        0% {
+            margin-left: 65px;
+        }
+
+        100% {
+            margin-left: -65px;
+        }
+    }
+
+    .hero-area h2 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .hero-area p {
+        font-size: 17px;
+    }
+
+    .services {
+        padding: 20px;
+    }
+
+    .big-circle {
+        width: 350px;
+        height: 350px;
+    }
+
+    .review img {
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .services .card:hover,
+    .work .card:hover {
+        top: -7px;
+    }
+
+    .work .card-group {
+        display: block;
+    }
+
+    .work .arrow {
+        transform: rotate(90deg);
+    }
+
+    .review {
+        padding: 80px 0;
+    }
+
+    .small-circle {
+        left: -70px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .btn3,
+    .btn4 {
+        padding: 11px 20px 11px 55px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .phone-animation {
+        padding-top: 10px;
+    }
+
+    .border-box {
+        width: 40%;
+        height: 55%;
+    }
+
+    .iphone-1,
+    .iphone-2 {
+        width: 64%;
+    }
+
+    .iphone-2 {
+        left: 130px;
+    }
+
+    .phone-animation .iphone-3,
+    .phone-animation .iphone-4 {
+        margin: 0;
+    }
+}
+
+@media (max-width: 599.98px) {
+    .phone-animation {
+        padding-top: 40px;
+    }
+
+    .plans h1 {
+        font-size: 38px;
+    }
+
+    .border-box {
+        width: 40%;
+        height: 45%;
+    }
+
+    .iphone-1,
+    .iphone-2 {
+        width: 67%;
+    }
+
+    .iphone-2 {
+        left: 100px;
+    }
+
+    .carousel-inner {
+        text-align: center;
+    }
+
+    .review img {
+        width: 115px;
+        float: inherit;
+    }
+
+    .iphone-3,
+    .iphone-4 {
+        width: 100%;
+        position: relative;
+    }
+
+    .iphone-4 {
+        left: 0px;
+    }
+}
